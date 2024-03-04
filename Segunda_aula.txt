@@ -1,0 +1,37 @@
+Segunda aula de desenvolvimento web, aula de protocolos:
+Protocolos: Um conjunto de regras, como algo deveria funcionar.
+Quando acontece um protocolo mensagens específicas são enviadas e se espera que um evento ocorra.
+Protocolo de redes:
+A máquina é burra então as mensagens são mais precisas, tendo em vista que a máquina não se adapta.
+A máquina sempre vai mandar uma requisição e vai receber uma resposta, isso no protocolo TCP.
+Existe o protocolo HTTP que manda um GET (uma requisiçao) e a página responde com um recurso ao qual foi pedido.
+A internet sempre vai ser organizada em camadas de abstração.
+A camada de abstração precisa ir de baixo pra cima, a parte de cima sempre vai depender do que está em baixo.
+A internet pode ser chamada de uma combinação de TCP e IP (transporte e de rede), o IP é um protcolo de rede, o número é o "endereço IP".
+Enlace: Termo que se dá a uma conexão, é quando vc passa dados de uma máquina pra outra. exemplo: WIFI (passa de um computador pra um roteador).
+PPP: Protocolo de enlace que conecta um modem a operadora.
+Os roteadores recebem um pacote e escolhem a melhor rota para esse pacote até onde ele deve ser enviado, eles mandam várias mensagens com os dados (esses são os pacotes),
+cada roteador tem uma memória e quando se lota uma memória e vem um novo dado esse dado então é apagado, essa é a perda de pacote.
+A internet conseguiu se popularizar por ter várias coisas de graça, por ser aberta.
+Protocolo proprietário: São protocolos próprios de uma empresa.
+Exercício: Listar protocolos proprietários e o que eles são:
+1:Apple Push Notification Service (APNS) - Protocolo da Apple usado para enviar notificações push para dispositivos iOS, macOS e watchOS.
+2:Microsoft Exchange ActiveSync - Protocolo da Microsoft usado para sincronização de email, contatos,
+calendários e tarefas em dispositivos móveis e clientes de email.
+Existem dois protocolos principais para transporte de dados: O TCP e o UDP (pesquisar mais depois).
+Arquitetura cliente e servidor (ver dps sobre):
+Servidores estão sempre no ar e o endereço IP é permanente.
+Arquitetura P2P/ Peer to Peer (ver dps sobre):
+Nos programas nós trabalhamos com processos (ver sobre processos). Um processo é um programa rodando em um computador, um mesmo programa pode abrir vários processos.
+O endereço IP identifica o computador, mas não o processo, a porta é a identificação do processo que a pessoa quer se conectar, em inglês é port (doca).
+Exercício: Listar portas padrão para protocolos web e responder "algum protocolo tem porta padrão?" se a resposta for "sim" dizer o pq:
+1:FTP (File transfer protocol):
+Porta padrão: 21 e 20, uma porta só pra transferir dados e uma para comandos.
+2:FTPS (FTP secure):
+Porta padrão: 990
+3:Telnet:
+Porta padrão: 23
+4:SNMP:
+Portas padrões: 161,162.
+
+
